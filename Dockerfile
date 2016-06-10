@@ -1,6 +1,6 @@
 FROM alpine:3.4
 
-ENV NOMAD_VERSION 0.2.2
+ENV NOMAD_VERSION 0.3.2
 
 RUN apk add --no-cache wget ca-certificates \
  && wget https://releases.hashicorp.com/nomad/${NOMAD_VERSION}/nomad_${NOMAD_VERSION}_linux_amd64.zip \
